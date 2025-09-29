@@ -136,7 +136,7 @@ button:hover {
   font-size: 1.1rem;
 }
 
-/* Gráfico */
+
 canvas {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
@@ -146,14 +146,14 @@ canvas {
   height: auto;
 }
 
-/* Tabela */
+
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1.5rem;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  overflow: hidden; /* Para garantir que as bordas arredondadas funcionem com overflow */
+  overflow: hidden;
 }
 
 table thead tr {
@@ -177,55 +177,20 @@ table tbody tr:hover {
   background: rgba(0, 255, 255, 0.05);
 }
 
-/* Cores específicas para as colunas da tabela de amortização, se necessário */
-td:nth-child(1) { /* Mês */
+
+td:nth-child(1) {
   font-weight: bold;
 }
-td:nth-child(2) { /* Valor da Parcela */
+td:nth-child(2) {
   color: #00ffea;
 }
-td:nth-child(3) { /* Juros */
+td:nth-child(3) {
   color: #ff4c4c;
 }
-td:nth-child(4) { /* Amortização */
+td:nth-child(4) {
   color: #00ff7f;
 }
-td:nth-child(5) { /* Saldo Devedor */
+td:nth-child(5) {
   color: #a5d0ff;
   font-weight: bold;
-}
-
-.container::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(
-      circle at 30% 30%,
-      rgba(138, 43, 226, 0.3),
-      transparent 50%
-    ),
-    radial-gradient(circle at 70% 70%, rgba(0, 255, 255, 0.3), transparent 50%);
-  animation: nebula 60s linear infinite;
-  z-index: -1;
-}
-
-@keyframes nebula {
-  0% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(5%, 10%);
-  }
-  50% {
-    transform: translate(-5%, -10%);
-  }
-  75% {
-    transform: translate(10%, -5%);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
 }
