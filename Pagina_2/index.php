@@ -17,7 +17,7 @@
         </div>
         <nav>
             <a href="../index.php">Homepage</a>
-            <a href="../Pagina_1/index.php">Gerenciador de gastos</a>
+            <a href="../Pagina_1/pagina1.php">Gerenciador de gastos</a>
             <a href="../Pagina_3/index.php">Simulador de Investimentos</a>
             <a href="../Pagina_4/index.php">Educação Financeira</a>
         </nav>

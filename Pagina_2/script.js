@@ -125,7 +125,7 @@ function calcular() {
             // Adiciona dados para o gráfico
             labelsGrafico.push(`Mês ${i}`);
             saldoDevedorGrafico.push(saldoDevedor);
-            jurosAcumuladosGrafico.push(0); // Juros acumulados é 0
+            jurosAcumuladosGrafico.push(0);
         }
         jurosTotal = 0;
 
@@ -144,7 +144,6 @@ function calcular() {
                 saldoDevedor = 0;
             }
 
-            // Adiciona linha à tabela
             const newRow = tabelaCorpo.insertRow();
             newRow.innerHTML = `
                 <td>${i}</td>

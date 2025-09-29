@@ -16,7 +16,7 @@
     <header>
       <div class="logo">
         <img src="./img/logo.png" alt="Logo Galactic Finance" />
-        <span>Galactic Finance</span>
+        <span>Finance galaxy</span>
       </div>
       <nav>
         <a href="./Pagina_1/pagina1.php">Gerenciador de gastos</a>

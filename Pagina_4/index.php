@@ -19,7 +19,7 @@
             <a href="../index.php">Homepage</a>
             <a href="../Pagina_2/index.php">Simulador de Financiamento</a>
             <a href="../Pagina_3/index.php">Simulador de Investimentos</a>
-            <a href="../Pagina_4/index.php">Educação Financeira</a>
+            <a href="../Pagina_1/pagina1.php">Gerenciador de gastos</a>
         </nav>
     </header>
 
