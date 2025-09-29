@@ -113,20 +113,7 @@ header nav a {
     position: relative;
 }
 
-header nav a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: var(--color-button-hover);
-    transition: width 0.3s ease-out;
-}
 
-header nav a:hover::after {
-    width: 100%;
-}
 
 header nav a:hover {
     color: var(--color-button-hover);
@@ -345,6 +332,55 @@ button:hover {
     max-width: 100% !important;
     height: auto !important;
     max-height: 450px;
+}
+
+/* Estilos para a caixa de insights "Entenda Seus Resultados" */
+.insights-box {
+    padding: var(--spacing-lg);
+    background: var(--color-background-dark);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-deep);
+    border: 1px solid var(--color-border-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.insights-box h4 {
+    font-size: 1.6rem;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+    text-shadow: var(--shadow-glow-primary);
+    font-weight: 700;
+}
+
+.insights-box p {
+    color: var(--color-text-medium);
+    font-size: 1rem;
+    margin-bottom: var(--spacing-sm);
+    max-width: 500px;
+}
+
+.insights-box .insights-link {
+    display: inline-block;
+    background-color: var(--color-tertiary);
+    color: var(--color-text-light);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius-sm);
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: var(--spacing-md);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(170, 0, 255, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.insights-box .insights-link:hover {
+    background-color: #c700ff;
+    box-shadow: 0 0 18px #c700ff;
+    transform: translateY(-3px) scale(1.02);
 }
 
 
